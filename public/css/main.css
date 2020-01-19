@@ -1,0 +1,67 @@
+main {
+    width: 100%;
+    height: auto;
+}
+#hero {
+    background: url('../images/refinery-3613522_1920.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+    color: #ededed;
+}
+#banner {
+    border-radius: 0;
+}
+.jumbotron {
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+}
+#hero .display-4 {
+    font-size: 1.3rem;
+}
+#hero h3 {
+    display: inline-block;
+    color: #ccc;
+}
+#mid {
+    background: #eee;
+    min-height: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.petrol-tools {
+    text-align: center;
+}
+.carousel-item {
+    height: 300px;
+}
+#mission {
+    padding-top: 50px;
+}
+a.outline {
+    color: #fff;
+    width: 150px;
+    border-radius: 0;
+    background: #f79722;
+}
+a.outline:hover {
+    color: #ccc;
+}
+
+#operations {
+    background: #111e2c;
+    color: #ccc;
+    padding: 50px 0;
+}
+.news {
+    padding: 50px 0;
+}
+.news h4 {
+    background: #111e2c;
+    color: #ccc;
+    display: inline-block;
+    padding: 5px;
+}

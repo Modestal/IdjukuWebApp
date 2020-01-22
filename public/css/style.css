@@ -57,3 +57,7 @@ body {
         margin-top: 20px;
     }
 }
+
+.navbar .text-orange {
+    color: #f79722!important;
+}

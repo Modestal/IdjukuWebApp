@@ -3,7 +3,7 @@ main {
     height: auto;
 }
 #hero {
-    background: url('../images/refinery-3613522_1920.jpg');
+    background: url('../images/singaporlngdnui1510_comprs.jpg');
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
@@ -36,7 +36,6 @@ main {
     text-align: center;
 }
 .carousel-item {
-    height: 300px;
 }
 #mission {
     padding-top: 50px;
@@ -62,6 +61,10 @@ a.outline:hover {
 .news h4 {
     background: #111e2c;
     color: #ccc;
-    display: inline-block;
     padding: 5px;
+}
+
+#footer {
+    height: 200px;
+    padding-top: 70px;
 }

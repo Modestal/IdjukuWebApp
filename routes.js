@@ -3,12 +3,14 @@ const router = express.Router();
 router.get('/', (req,res) => {
     res.render('home');
 })
-router.get('/about', (req,res) => {
-    res.render('about');
+router.get('/company_profile', (req,res) => {
+    res.render('company_profile');
 })
 router.get('/services', (req,res) => {
     res.render('services');
 })
-
+router.get('/operation', (req,res) => {
+    res.render('operation')
+})
 
 module.exports = router;

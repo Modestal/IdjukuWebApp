@@ -10,7 +10,10 @@ router.get('/services', (req,res) => {
     res.render('services');
 })
 router.get('/operation', (req,res) => {
-    res.render('operation')
+    res.render('operation');
 })
 
+router.get('/meet_us', (req, res) => {
+    res.render('meet_us');
+})
 module.exports = router;

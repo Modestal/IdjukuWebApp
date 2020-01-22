@@ -1,1 +1,47 @@
-<h1>Hey there good to have you!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meet us</title>
+    <% include partials/head %>
+    <link rel="stylesheet" href="css/pages.css">
+    <% include partials/menu %>
+</head>
+<body>
+    <main class="into">
+        <article class="">
+            <section class="container-fluid jumbotron">
+                <div class="row">
+                    <div class="col-12 col-md-8 mx-auto">
+                        <h1 class="h4 text-center">Welcome to Onaidjuku Nigeria Enterprises</h1>
+                        <p class="lead">
+                            We are a Oil and Gas company with focus mainly on procurement, halulage and transportation of 
+                            petroleum products within the Niger Delta area.
+                        </p>
+                        <p class="lead">How may we be of service to you.</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="container">
+            <div class="row">
+                <div class="container-fluid"> 
+                    <% include partials/professional_services %>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="row">
+                <div class="col-12 col-md-8">
+                    <% include partials/contact_form %>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    <%include partials/footer %>
+    <% include partials/script %> 
+</body>
+</html>

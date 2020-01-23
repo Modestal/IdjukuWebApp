@@ -68,7 +68,47 @@ a.outline:hover {
 }
 
 #footer {
-    height: 200px;
+    min-height: 200px;
     padding-top: 70px;
     margin-top: 70px;
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        padding: 0!important;
+    }
+
+    .navbar-nav {
+        background: #111e2c;
+    }
+    .navbar-nav li {
+        border-bottom: 1px solid #f79722;
+        padding: 0 2rem
+    }
+    .navbar-nav li:nth-child(5) {
+        border: none;
+    }
+    .navbar-brand {
+        margin-left: 2rem;
+    }
+}
+.services h5 {
+    margin-bottom: 0;
+}
+
+@media (min-width: 992px) {
+    .navbar-nav li {
+        margin-left: 1px soldi #f79722;
+    }
+}
+
+.company_profile {
+    background: url('../images/isuzu-rigid-fuel-tankers-id-59313174-type-main.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    color: #fff;
 }

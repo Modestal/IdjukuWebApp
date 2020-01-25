@@ -1,6 +1,4 @@
 jQuery(document).ready(function() {
-    $('#my-icon').on('click', function() {
-        $(this).toggleClass('is-active');
-        $('.navbar-mobile').toggleClass('show');
-    })
+    var year = new Date().getFullYear();
+    $('.copywrite').html(`&copy; ONAIDJUKU NIG. ENT. <br> 2015 - ${year} All right reserved`);
 })

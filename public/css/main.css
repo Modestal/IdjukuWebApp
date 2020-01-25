@@ -80,12 +80,13 @@ a.outline:hover {
 
     .navbar-nav {
         background: #111e2c;
+        height: 300px;
     }
     .navbar-nav li {
         border-bottom: 1px solid #f79722;
         padding: 0 2rem
     }
-    .navbar-nav li:nth-child(5) {
+    .navbar-nav li:nth-child(4) {
         border: none;
     }
     .navbar-brand {
@@ -107,7 +108,7 @@ a.outline:hover {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
-    height: 300px;
+    min-height: 300px;
     width: 100%;
     overflow: hidden;
     color: #fff;

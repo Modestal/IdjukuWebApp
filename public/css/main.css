@@ -80,7 +80,7 @@ a.outline:hover {
 
     .navbar-nav {
         background: #111e2c;
-        height: 300px;
+        padding-bottom: 40px!important;
     }
     .navbar-nav li {
         border-bottom: 1px solid #f79722;

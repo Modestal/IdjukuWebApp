@@ -113,3 +113,40 @@ a.outline:hover {
     overflow: hidden;
     color: #fff;
 }
+.services .card {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+@media (max-width: 768px) {
+
+    .services .card {
+        border-bottom: 1px solid #ccc;
+        width: 95%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .services {
+        padding: 1rem!important;
+    }
+    .services p {
+        font-size: 0.875rem;
+    }
+
+    .services .card-title {
+        margin-bottom: 0;
+        font-weight: 500;
+    }
+}
+@media (min-width: 768px) {
+    .services {
+
+    }
+}
+.services .card-title {
+    margin-bottom: 0;
+}
+@media (max-width: 575px) {
+    .services {
+        background: #ccc;
+    }
+}

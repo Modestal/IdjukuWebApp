@@ -55,3 +55,26 @@ function validateForm() {
       }
       
 }
+
+$('form').on('submit', (e) => {
+    e.preventDefault();
+    validateForm();
+    const name = $('#name').val().trim();
+    const email = $('#email').val().trim();
+    const subject = $('#subject').val().trim()
+    const message = $('#message').val().trim();
+
+    const data = {
+        name,
+        email,
+        subject,
+        message
+    }
+    fetch('/email', {
+        method: 'post',
+        headers: {
+            'Content-type': 'application/json'
+        },
+        body: JSON.stringify(data)
+    })
+})

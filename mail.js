@@ -1,15 +1,25 @@
 const nodemailer = require('nodemailer');
-const transporter = nodemailer.createTransport({
-    service: 'gmail',
-    auth: {
-        user: 'pedroyanky@gmail.com',
-        pass: 'modestmafia1'
-    }
-});
+const mailGun = require('nodemailer-mailgun-transport');
 
-const mailOptions = {
-    from: 'pedroyanky@gmail.com',
-    to: 'vwegbacity@gmail.com',
-    subject: 'Sending email using nodejs',
-    text: 'This was fairly easy'
+
+const auth = {
+    auth: {
+        api_key: '',
+        domain: ''
+    }
 }
+const transporter = nodemailer.createTransport(mailGun(auth))
+const mailOptions = {
+    from : 'vwegbacity@gmail.com',
+    to: 'pedroyanky@gmail.com',
+    subject: 'Just testing things',
+    text: 'I would very much like to get in touch with you.'
+}
+
+transporter.sendMail(mailOptions, function(err, data) {
+    if(err) {
+        console.log('Error occur');
+    }else {
+        console.log('Message sent');
+    }
+})

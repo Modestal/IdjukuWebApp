@@ -149,6 +149,10 @@ a.outline:hover {
     .services {
         background: #ccc;
     }
+    .services .card {
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
 }
 .text-orange {
     color: #f79722; 
